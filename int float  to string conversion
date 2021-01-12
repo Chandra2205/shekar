@@ -1,0 +1,146 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMM72sq7XcCKIFTu1Vj2MGI",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Chandra2205/shekar/blob/create-and-edit/int%20float%20%20to%20string%20conversion\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wTDhFr2mhEBa",
+        "outputId": "2ceac3c1-349c-43cb-8b7c-b45bcbf3e5aa"
+      },
+      "source": [
+        "number_integer = 123\r\n",
+        "number_float = 1.23\r\n",
+        "#adding integer and float\r\n",
+        "sum = number_integer + numer_float\r\n",
+        "print(sum)"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "124.23\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7ldTW8Iahk61",
+        "outputId": "9de3b7cc-0b05-4f75-8b28-48afd28cb8e3"
+      },
+      "source": [
+        " float_number = 1.734\r\n",
+        "\r\n",
+        " #converting to integer\r\n",
+        " integer_number = int(float_number)\r\n",
+        "\r\n",
+        " print(integer_number)\r\n",
+        " print(type(integer_number))"
+      ],
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "1\n",
+            "<class 'int'>\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NaAFxhRZqgEg",
+        "outputId": "7cd73c81-18d8-4f4e-996f-0579a58c66d2"
+      },
+      "source": [
+        "a = '55'\r\n",
+        "integer_number = int(a)\r\n",
+        "float_number = float(a)\r\n",
+        "print('integer_number:',integer_number)\r\n",
+        "print('float_number:',float(a))"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "integer_number: 55\n",
+            "float_number: 55.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RZKa-979rYbx",
+        "outputId": "f5db3ccb-e3fa-438c-c654-0a0d392e8183"
+      },
+      "source": [
+        "a = 80\r\n",
+        "b = 80.99\r\n",
+        "str_a = str(a)\r\n",
+        "str_b = str(b)\r\n",
+        "print(str_a)\r\n",
+        "print(type(str_a))\r\n",
+        "print(str_b)\r\n",
+        "print(type(str_b))"
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "80\n",
+            "<class 'str'>\n",
+            "80.99\n",
+            "<class 'str'>\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
